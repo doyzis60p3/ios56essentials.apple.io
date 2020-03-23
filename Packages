@@ -1,0 +1,14 @@
+Package: cydia.appcake.iphonecake.com
+Version: 4.96
+Architecture: iphoneos-arm
+Maintainer: hotsjf <hotsjf@gmail.com>
+Depends: cydia.net.angelxwind.appsyncunified
+Filename: /cydia.appcake.iphonecake.com
+Size: 4609260
+MD5sum: 66c15d6195a5a4e99213612fe6dd5e26
+SHA1: 4184083d60365c786aa800c39a5ad0faba91140e
+SHA256: 9b1cc1f800b6e328812b0a91e48123327b1a793fbda9576cc6a96b219b9221cd
+Section: Utilities
+Description: AppCake 4 Legacy version.
+Author: hotsjf <hotsjf@gmail.com>
+Name: AppCake 4

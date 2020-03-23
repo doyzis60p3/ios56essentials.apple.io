@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>ICAppManagementViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>init</string>
+			<key>Title</key>
+			<string>App Management</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>ICWIFIShareViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>init</string>
+			<key>Title</key>
+			<string>WIFI Share</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICShouldInstallAppAutomaticallyUserDefaultKey</string>
+			<key>Title</key>
+			<string>Automatically Install</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICShouldDeleteAppAfterInstallationUserDefaultKey</string>
+			<key>Title</key>
+			<string>Delete After Install</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>This will keep your screen always ON while using AppCake</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICShouldKeepAppAwakeUserDefaultKey</string>
+			<key>Title</key>
+			<string>Keep Awake</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Remove Metadata will stop App Store from updating the app</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICShouldRemoveMetadataAfterInstallationUserDefaultKey</string>
+			<key>Title</key>
+			<string>Remove Metadata</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Enable iTunes Sync to make apps installed by AppCake can be transfered to your computer by iTunes.</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICiTunesSyncEnabledUserDefaultKey</string>
+			<key>Title</key>
+			<string>iTunes Sync</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Key</key>
+			<string>ICShowiPhoneAppsOniPadUserHeader</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICShowiPhoneAppsOniPadUserDefaultKey</string>
+			<key>Title</key>
+			<string>Show iPhone Apps</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>BT Settings</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>ICBTDownloadOnlyInWiFiUserDefaultKey</string>
+			<key>Title</key>
+			<string>BT Download Only in Wi-Fi</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>IASKViewControllerClass</key>
+			<string>BandwidthController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>init</string>
+			<key>Title</key>
+			<string>BT Bandwidth &amp; Connection</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>https://www.iphonecake.com/mobileapp/feedback</string>
+			<key>IASKViewControllerClass</key>
+			<string>ICWebViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithFile:key:</string>
+			<key>Title</key>
+			<string>Feedback</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>https://www.iphonecake.com/mobileapp/changelog</string>
+			<key>IASKViewControllerClass</key>
+			<string>ICWebViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithFile:key:</string>
+			<key>Title</key>
+			<string>Changelog</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>https://www.iphonecake.com/mobileapp/translate</string>
+			<key>IASKViewControllerClass</key>
+			<string>ICWebViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithFile:key:</string>
+			<key>Title</key>
+			<string>I Can Translate</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKCustomViewSpecifier</string>
+			<key>Title</key>
+			<string>Language</string>
+			<key>Key</key>
+			<string>kLanguageSelection</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKCustomViewSpecifier</string>
+			<key>Title</key>
+			<string>Clear Image Cache</string>
+			<key>Key</key>
+			<string>kClearCache</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>{APP_VERSION}</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Settings</string>
+</dict>
+</plist>

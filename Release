@@ -1,0 +1,8 @@
+Origin: doyzis60p3's Test Repo (Change this)
+Label: doyzis60p3's Repo (Change this)
+Suite: alpha
+Version: 0.1
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: doyzis60p3's test essential Cydia repo
